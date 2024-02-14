@@ -61,6 +61,14 @@ body {
   box-shadow: 0.5px 5px 3px 1px rgb(255, 178, 191);
 }
 
+@media(max-width: 573px) {
+  .btn_open {
+    background-color: red;
+    margin-bottom: 3rem;
+  }
+}
+
+
 .btn-yes,
 .btn-no {
   margin: 3rem 0.5rem 0;
