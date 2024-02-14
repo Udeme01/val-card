@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(209, 175, 181);
+  padding: 0;
+  display: grid;
+  place-content: center;
+  width: 360px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.giphy {
+  border: 5px solid green;
+  border-radius: 12px;
+}
+
+.noHome {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+}
+
+.arrow-icon {
+  width: 50px;
+}

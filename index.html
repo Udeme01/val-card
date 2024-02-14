@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>KeduTV Invite Card</title>
+  </head>
+  <body>
+    <div class="envelope" id="envelop">
+      <div class="flap" id="flappy"></div>
+      <div class="image" id="img"></div>
+    </div>
+    <div class="buttons-container">
+      <button type="button" class="btn btn-yes">
+        <a href="yes.html">YES</a>
+      </button>
+      <button type="button" class="btn btn-no">
+        <a href="no.html">NO</a>
+      </button>
+    </div>
+
+    <div class="btnWrapper">
+      <button
+        type="button"
+        class="btn btn_open"
+        id="openBtn"
+        onclick="openFlap()"
+      >
+        Open
+      </button>
+    </div>
+
+    <!-- Hearts -->
+    <div id="hearts-alpaca" class="hearts">
+      <div class="heart"></div>
+      <div class="heart"></div>
+      <div class="heart"></div>
+      <div class="heart"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
