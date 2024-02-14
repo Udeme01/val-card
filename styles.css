@@ -21,8 +21,8 @@ body {
   background: var(--color-sky-bottom);
   background: linear-gradient(
     to bottom,
-    var(--color-sky-top),
-    var(--color-sky-bottom)
+    var(--color-sky-bottom),
+    var(--color-sky-top)
   );
   width: 100vw;
   height: 100vh;
@@ -63,7 +63,6 @@ body {
 
 @media(max-width: 573px) {
   .btn_open {
-    background-color: red;
     margin-bottom: 3rem;
   }
 }
